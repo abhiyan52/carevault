@@ -1,41 +1,36 @@
 import { motion } from "framer-motion";
-import { Upload, Search, Users, Shield, LineChart, Headphones, Eye } from "lucide-react";
+import { VoiceIcon, Search, Users, Shield, Upload, Eye, Headphones } from "lucide-react";
 
 const features = [
   {
-    icon: Upload,
-    title: "Simple Document Management",
-    description: "One-click upload for medical reports with automatic organization by date and type",
+    icon: Eye,
+    title: "Senior-First Design",
+    description: "Simple voice commands, large text, and one-tap actions for effortless use",
   },
   {
     icon: Search,
-    title: "Voice-Activated Search",
-    description: "Find documents using natural language - just ask and get instant results",
-  },
-  {
-    icon: Eye,
-    title: "Elderly-Friendly Design",
-    description: "Large text, high contrast interface, and voice guidance for easy navigation",
+    title: "Instant Answers",
+    description: "Find medical reports via natural language search ('Show my 2023 lab results')",
   },
   {
     icon: Users,
-    title: "Family & Caregiver Access",
-    description: "Securely share records with family members and healthcare providers",
-  },
-  {
-    icon: LineChart,
-    title: "Health Insights",
-    description: "Visualize health trends and track medications with smart reminders",
+    title: "Family Care Coordination",
+    description: "Securely share records and get emergency alerts for loved ones",
   },
   {
     icon: Shield,
-    title: "Uncompromising Security",
-    description: "HIPAA-compliant encryption with Face/Touch ID login",
+    title: "HIPAA-Secure",
+    description: "End-to-end encryption and Face ID/Touch ID login for peace of mind",
+  },
+  {
+    icon: Upload,
+    title: "Free & Easy Start",
+    description: "Organize 50+ documents at no cost—no tech skills needed",
   },
   {
     icon: Headphones,
     title: "24/7 Support",
-    description: "Instant help with video tutorials and dedicated helpline support",
+    description: "Get help anytime with video tutorials and dedicated helpline support",
   },
 ];
 
@@ -69,7 +64,7 @@ export const Features = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="glass p-6 rounded-2xl hover:shadow-lg transition-shadow"
+              className="glass p-6 rounded-2xl hover:shadow-lg transition-shadow hover-slide"
             >
               <div className="h-12 w-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                 <feature.icon className="h-6 w-6 text-primary" />
