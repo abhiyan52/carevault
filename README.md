@@ -1,6 +1,29 @@
-# Welcome to your Lovable project
+# CareVault - Your Medical Records, One Voice Away 🩺
 
-## Project info
+## Introduction
+
+Inspired by the challenges faced during my grandmother's hospitalization—scattered medical records, frantic searches for test results, and communication gaps between caregivers—**CareVault** was created to transform how elderly patients and families manage health data. This platform centralizes medical documents (discharge summaries, lab reports, etc.) into a secure, intuitive hub, enabling instant access via voice or natural language queries like *"Show Mom's latest blood sugar readings."*
+
+Designed with seniors in mind, it features large text, voice-guided navigation, and one-tap sharing to reduce tech-related stress. For families, it streamlines care coordination with emergency alerts, shared notes, and HIPAA-compliant access for doctors.
+
+At its core, CareVault is more than an app—it's a solution to the chaos of fragmented healthcare, empowering families to focus on care, not paperwork, so no one else has to endure the confusion we faced.
+
+**Mission**: *Turn medical chaos into clarity, one voice command at a time.* 🩺❤️
+
+## Tech Stack
+
+This project leverages modern web technologies for optimal performance and user experience:
+
+- **Frontend Framework**: React with TypeScript for type-safe, component-based UI development
+- **Build Tool**: Vite for lightning-fast development and optimized production builds
+- **Styling**: Tailwind CSS for utility-first styling and rapid UI development
+- **UI Components**: shadcn/ui for beautiful, accessible, and customizable components
+- **Development Tools**:
+  - TypeScript for enhanced code quality and developer experience
+  - ESLint for code linting
+  - Modern module bundling with Vite
+
+## Project Info
 
 **URL**: https://lovable.dev/projects/fadeaf9f-3083-4230-ad8f-3fc4ef1fab42
 
