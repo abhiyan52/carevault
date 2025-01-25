@@ -53,7 +53,6 @@ export const Features = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-4 text-lg text-muted-foreground"
           >
-            Designed with simplicity and dignity in mind - no tech skills needed
           </motion.p>
         </div>
         
