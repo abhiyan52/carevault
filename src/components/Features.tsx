@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Zap, Shield, Smartphone } from "lucide-react";
+import { Search, Shield, Upload, Brain } from "lucide-react";
 
 const features = [
   {
-    icon: Zap,
-    title: "Lightning Fast",
-    description: "Optimized for speed and performance",
+    icon: Upload,
+    title: "Easy Document Upload",
+    description: "Drag-and-drop interface for quick document uploads with real-time progress tracking",
+  },
+  {
+    icon: Brain,
+    title: "AI-Powered Search",
+    description: "Natural language search capabilities for intuitive document retrieval",
   },
   {
     icon: Shield,
-    title: "Secure by Design",
-    description: "Built with security at its core",
-  },
-  {
-    icon: Smartphone,
-    title: "Responsive",
-    description: "Perfect on every device",
+    title: "Secure Storage",
+    description: "Enterprise-grade security for your sensitive medical documents",
   },
 ];
 
@@ -30,7 +30,7 @@ export const Features = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl font-bold"
           >
-            Features
+            Key Features
           </motion.h2>
         </div>
         
@@ -50,7 +50,7 @@ export const Features = () => {
               <p className="text-muted-foreground mb-4">{feature.description}</p>
               <button className="group flex items-center text-primary">
                 Learn more
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <feature.icon className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </button>
             </motion.div>
           ))}

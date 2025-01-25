@@ -11,21 +11,21 @@ export const Hero = () => {
       >
         <span className="inline-flex animate-fade-down">
           <span className="px-3 py-1 text-sm font-medium bg-secondary rounded-full">
-            Introducing Innovation
+            Intelligent Document Management
           </span>
         </span>
         
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight animate-fade-up">
-          Create the Future with Elegant Design
+          DocuQuest Scan
         </h1>
         
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up">
-          Experience the perfect blend of form and function. Every detail crafted with precision and purpose.
+          A secure and intelligent medical document management system. Upload, organize, and search your medical documents using natural language queries, powered by advanced OCR and AI technology.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up">
           <button className="px-8 py-3 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition-opacity">
-            Get Started
+            Start Scanning
           </button>
           <button className="px-8 py-3 rounded-full bg-secondary text-secondary-foreground hover:opacity-90 transition-opacity">
             Learn More
