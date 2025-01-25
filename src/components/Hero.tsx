@@ -16,7 +16,7 @@ export const Hero = () => {
         </span>
         
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight animate-fade-up">
-          DocuQuest Scan
+          CareVault
         </h1>
         
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up">
