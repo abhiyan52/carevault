@@ -11,7 +11,7 @@ export const Hero = () => {
       >
         <span className="inline-flex animate-fade-down">
           <span className="px-3 py-1 text-sm font-medium bg-secondary rounded-full">
-            Intelligent Document Management
+            Built for Seniors, Trusted by Families
           </span>
         </span>
         
@@ -20,15 +20,15 @@ export const Hero = () => {
         </h1>
         
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up">
-          A secure and intelligent medical document management system. Upload, organize, and search your medical documents using natural language queries, powered by advanced OCR and AI technology.
+          Your secure medical document hub with voice-activated search, family sharing, and elderly-friendly design. Organize, access, and share your health records with confidence.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up">
           <button className="px-8 py-3 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition-opacity">
-            Start Scanning
+            Try Free
           </button>
           <button className="px-8 py-3 rounded-full bg-secondary text-secondary-foreground hover:opacity-90 transition-opacity">
-            Learn More
+            Watch Demo
           </button>
         </div>
       </motion.div>
